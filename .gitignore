@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+
+# Environment and secret files (never commit to Git)
+.env
+.env.*
+!.env.example
+server/.data/
